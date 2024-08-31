@@ -9,7 +9,7 @@ rem
 
 rem
 rem Cleaning
-rem DROP USER airbnb CASCADE;
+DROP USER airbnb CASCADE;
 rem
 rem user creation
 rem 
@@ -32,9 +32,15 @@ rem
 ALTER SESSION SET CURRENT_SCHEMA=airbnb;
 rem
 rem 
-rem En el siguiente script airbnb es donde se crea una base de datos correspondiente al schema relacional 
+rem En el siguiente script airbnb es donde se crea una las tablas correspondiente al schema relacional 
 rem 
 @@airbnb.sql
+
+rem 
+rem En el siguiente script airbnb Se pasa a realizar los CONSTRAINTS o restricciones que tiene cada tabla del esquema 
+rem 
+
+@@Constraints.sql
 rem
 rem 
 rem En este script insertAirbnb es donde se colocan datos de prueba para verificar que las tablas estes correctas con sus restricciones 

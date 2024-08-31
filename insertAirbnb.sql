@@ -7,18 +7,6 @@ rem
 rem En este script se insertan datos del esquema creado
 rem 
 
-rem 
-rem Eliminar todos los datos de cada tabla 
-rem 
-rem DELETE FROM PlaceAmenity;
-rem DELETE FROM Review;
-rem DELETE FROM Place;
-rem DELETE FROM City;
-rem DELETE FROM State;
-rem DELETE FROM customer;
-rem DELETE FROM Amenity;
-rem 
-
 
 rem
 rem Insertar datos en State
